@@ -1,0 +1,18 @@
+Part1:
+step3:
+ We can verify that both passwords were configure corrently: after we exit out of user exec mode,
+ the switch will prompt us for a password to access the console interface and will prompt us a 
+ second password time when we are accessing the priviliged exec mode.
+step4:
+ s1(config)# exit
+ s1# copy running-config startup-config
+Part2:
+step2:
+ b. We were not successful because the switches have not been configure with the IP address.
+Part3:
+step1:
+ -If this is the case, we would configure it with an IP address because an IP address is required to connect to a switch remotely. 
+  The switch is managed through VLAN1 by default.
+ -we enter the no shutdown because the no shutdown command adminstratively enablees the interface to an active state.
+step4:
+ The command is used to save the configuration file in RAM to NVRAM is "copy running-config startup-config".

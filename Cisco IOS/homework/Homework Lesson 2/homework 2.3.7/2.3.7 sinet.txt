@@ -1,0 +1,35 @@
+Part1:
+step 2:
+ b. The sitting for bits per second is 9600.
+ c. The prompt displayed on the screen is "s1>".
+step 3:
+ a. The command begins with the letter "C" is "conncet".
+ b. 
+  - The commands are displayed " telnet terminal traceroute".
+  - The commands are displayed " telnet terminal".
+Part2:
+step1:
+ a. The information is displayed for the enable command is "Trun on privileged commands".
+ b. 
+  - After pressing the Tab key, it displayed "enable".
+  - If we type te<teb> at the prompt, it doesn't display because it doesn't have enough the character to make the command unique.
+ c. The prompt changes from "s1> to s1#".
+ d. There are five commands are displayed such as "clear, clock, configure, connect and copy".
+step2:
+ a. The message that is displayed is "Configuring from terminal, memory, or network [terminal]?".
+ b. The prompt changes to "S1(config)#".
+Part 3:
+step1:
+ a. The information is displayed "12:9:3.565 UTC Mon Mar 1 1933". The year that is displayed is 1993.
+ b. The information is displayed "% Incomplete command".
+ c. The information is displayed " clock".
+ d. 
+   - The information is being requested "Time".
+   - If only the clock set command had been entered, and no request for help was made by 
+    using the question mark.It would have been displayed "% Invalid input detected at '^' marker".
+Step2:
+ b. 
+   - The information was returned "% Ambiguous command: "cl" ".
+   - The information was returned "% Incomplete command".
+   - The information was returned "% Invalid input detected at '^' marker".
+   - The information was returned "% Invalid input detected at '^' marker".

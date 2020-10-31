@@ -1,0 +1,26 @@
+Part1:
+step2:
+ -The switch has 24 Fast Ethernet interfaces.
+ -The switch has 2 Gigabit Ethernet interfaces.
+ -The range of values show for the vty lines is 0-4 to 5-15.
+ -The command will display the current contents non-volatile random access memory(NVRAM) is "startup-config".
+ -The switch respond with "startup-config is not present" because the configuration file is not saved to non-volatile random access memory(NVRAM).
+Part2
+ The login command is required because of the purpose for the password checking process to work.
+step7:
+ - The enable secret password is displayed "$1$mERr$ILwq/b7kc.7x/ejA4Aosn0".
+ - The enable secret password displayed differently form what we configured because it is shown in encrypt form that changed from plain-text password.
+step8:
+ If we configure any more passwords on the switch, they will be displayed in the configuration file in encryted form because
+ the service password-encryption command encrypts all current and future passwords.
+Part3:
+step1:
+ - This banner will be displayed when we enter the switch by the console port.
+ - Every switch should have a MOTD banner because it keeps everything that users updated on various activities 
+   and it can be used to warn againt un-authorized access.
+Part4:
+step2:
+ Abbreviated version of the copy running-config srartup-config command, the shortest is "copy run start".
+step3:
+ - The command will display the contents of NVRAM is "startup-config".
+ - All the changes that were entered are recorded in the file and it is the same as the running-configuration.
